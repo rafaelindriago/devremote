@@ -1,0 +1,37 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Devicon
+@import '../../node_modules/devicon/devicon.min.css';
+
+// Datepicker
+@import '../../node_modules/vanillajs-datepicker/dist/css/datepicker.min.css';
+@import '../../node_modules/vanillajs-datepicker/dist/css/datepicker-bs5.min.css';
+
+// Cropper
+@import 'cropperjs/dist/cropper.min.css';
+
+// Cropper container and preview
+.cropper {
+    height: 250px !important;
+}
+
+.cropper-preview {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+// Livewire navigate progressbar
+#nprogress .bar {
+    background-color: #0d6efd !important;
+}
+
+#nprogress .spinner {
+    display: none !important;
+}
